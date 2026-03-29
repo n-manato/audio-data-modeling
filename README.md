@@ -1,2 +1,3 @@
-# audio-data-modeling
-Google Colab notebook for audio data processing, feature extraction, and basic audio modeling.
+# Audio Data Modeling
+
+This repository contains a Google Colab notebook that demonstrates basic audio data processing, feature extraction, and simple model building for audio data.
