@@ -2,23 +2,16 @@
 
 ## Overview
 
-This project aims to classify human emotions from speech audio.  
-Using speech data from the RAVDESS dataset, I extracted several types of audio features and compared multiple machine learning models to examine which combinations work effectively for speech emotion recognition.
+This project explores how human emotion can be classified from speech audio.  
+Using the **RAVDESS dataset**, I tested multiple types of audio features and multiple machine learning models, then compared them using standard evaluation metrics for classification.
 
-The target emotions in this project are:
+The goal of this project is not only to build a working model, but also to demonstrate an understanding of:
 
-- neutral
-- happy
-- sad
-- angry
-
-This project demonstrates the overall workflow of an audio machine learning task, including:
-
-- audio loading
-- visualization
-- feature extraction
-- model training
-- evaluation
+- audio data processing
+- audio feature extraction
+- machine learning model selection
+- evaluation methods for classification
+- the overall workflow of an audio machine learning project
 
 ---
 
@@ -114,6 +107,17 @@ The overall workflow of the project is as follows:
 
 9. **Compare feature-model combinations**  
    Observe which features and models work better for speech emotion recognition.
+
+
+flowchart TD
+    A[Load Dataset] --> B[Parse Labels]
+    B --> C[Visualize Audio]
+    C --> D[Extract Features]
+    D --> E[Prepare Dataset]
+    E --> F[Train Test Split]
+    F --> G[Train Models]
+    G --> H[Evaluate Models]
+    H --> I[Compare Results]
 
 ---
 
