@@ -108,7 +108,7 @@ The overall workflow of the project is as follows:
 9. **Compare feature-model combinations**  
    Observe which features and models work better for speech emotion recognition.
 
-
+```mermaid
 flowchart TD
     A[Load Dataset] --> B[Parse Labels]
     B --> C[Visualize Audio]
@@ -118,6 +118,7 @@ flowchart TD
     F --> G[Train Models]
     G --> H[Evaluate Models]
     H --> I[Compare Results]
+```
 
 ---
 
