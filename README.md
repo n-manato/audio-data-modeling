@@ -22,21 +22,6 @@ This project demonstrates the overall workflow of an audio machine learning task
 
 ---
 
-## Processing Flow
-
-The overall process of this project is shown below.
-
-```mermaid
-flowchart TD
-    A[Load audio files<br>from RAVDESS dataset] --> B[Extract emotion labels<br>from file names]
-    B --> C[Visualize audio data<br>Waveform / Spectrogram / MFCC / etc.]
-    C --> D[Extract features<br>Pitch / Spectrogram / Mel Spectrogram / MFCC]
-    D --> E[Create dataset<br>X: features, y: labels]
-    E --> F[Split into training and test sets]
-    F --> G[Train models<br>Random Forest / SVM / Logistic Regression / LSTM]
-    G --> H[Evaluate models<br>Accuracy / Classification Report / Confusion Matrix]
-    H --> I[Compare results<br>and analyze performance]
-
 ## Project Theme Selection
 
 Before deciding on the final topic, I considered several possible ideas based on hearing, sound, and daily-life applications:
