@@ -45,6 +45,9 @@ From a technical perspective, this theme is also suitable because emotion is ref
 
 ## Objective
 
+This project uses the RAVDESS speech dataset:  
+https://zenodo.org/records/1188976/files/Audio_Speech_Actors_01-24.zip?download=1
+
 The objective of this project is to classify emotions from speech audio by:
 
 1. loading and exploring audio files
