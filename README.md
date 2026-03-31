@@ -65,6 +65,61 @@ The target emotions used in this project are:
 
 ---
 
+## Development Environment
+
+This project was developed in the following environment:
+
+- **OS:** Windows
+- **Python:** 3.13.3
+- **Virtual environment:** Not used
+- **Development tools:** Visual Studio Code, Jupyter Notebook, Google Colab
+
+---
+
+## Main Libraries
+
+The main libraries used in this project are:
+
+- `numpy==2.2.5`
+- `pandas==3.0.1`
+- `matplotlib==3.10.3`
+- `librosa==0.11.0`
+- `scikit-learn==1.7.0`
+- `tensorflow==2.21.0`
+
+---
+
+## Installation
+
+To install the required libraries, open a terminal in the project folder and run:
+
+```bash
+pip install numpy pandas matplotlib librosa scikit-learn tensorflow
+
+```
+
+## Objective
+
+This project uses the RAVDESS speech dataset:  
+https://zenodo.org/records/1188976/files/Audio_Speech_Actors_01-24.zip?download=1
+
+The objective of this project is to classify emotions from speech audio by:
+
+1. loading and exploring audio files
+2. visualizing audio signals
+3. extracting multiple types of audio features
+4. training and comparing machine learning models
+5. evaluating the models using appropriate classification metrics
+
+The target emotions used in this project are:
+
+- neutral
+- happy
+- sad
+- angry
+
+---
+
 ## Dataset
 
 This project uses the **RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song)** dataset.
